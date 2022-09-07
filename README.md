@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: 
-- Live Site URL: 
+- Live Site URL:(https://lighthearted-daffodil-57952e.netlify.app/)
 
 ## My process
 
@@ -40,7 +40,7 @@ Users should be able to:
 - developing this site by using grid
 ## Author
 
-- Website - [Hawi Girmachew](https://www.your-site.com)
+- Website - [Hawi Girmachew]((https://lighthearted-daffodil-57952e.netlify.app/))
 - Frontend Mentor - [@Hawigirmachew](https://www.frontendmentor.io/profile/Hawigirmachew)
 - Twitter - [@girmachee_h](https://twitter.com/girmachee_h)
 
