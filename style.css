@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+}
+.preview_cards{
+    background-color: hsl(0, 0%, 95%);
+    height:100vh;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding:12px 20px;
+}
+.sedans, .luxury, .suvs{
+    display:flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:30px 50px;
+
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%) ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.heading{
+    font-family: 'Big Shoulders Display', cursive;
+    color:hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.description{
+    font-family: 'Lexend Deca', sans-serif;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 20px;
+    font-size: 12px;
+    
+}
+.image{
+    margin-bottom: 20px;
+    width:15%;
+}
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.btn1{
+    color:hsl(31, 77%, 52%) ;
+}
+.btn1:hover{
+    background-color:hsl(31, 77%, 52%) ;
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn2:hover{
+    background-color:hsl(184, 100%, 22%) ;
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+.btn3:hover{
+    background-color:hsl(179, 100%, 13%) ;
+}
+.btn:hover{
+    border:1px solid hsl(0, 0%, 95%);
+    color:hsl(0, 0%, 95%) ;
+}
+/* .footer{
+    position:absolute;
+    border:0;
+} */
+@media screen and (min-width:768px) {
+    .preview_cards{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+       
+    }
+
+    .container{
+        max-width: 700px;
+        flex-direction: row;
+    }
+    .sedans{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+   
+    .luxury{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 10px;
+    }
+    .btn{
+        /* font-family: 'Lexend Deca', sans-serif; */
+        padding: 10px 15px;
+    }
+    
+}
