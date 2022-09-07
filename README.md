@@ -13,7 +13,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Continued development](#continued-development)
   
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 ### The challenge
 
 Users should be able to:
@@ -23,7 +23,7 @@ Users should be able to:
 ### Screenshot
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub/responsive-page-using-css-flexbox-B6cuV8Io3R
 - Live Site URL:(https://lighthearted-daffodil-57952e.netlify.app/)
 
 ## My process
