@@ -15,11 +15,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 - [Author](#author)
 
 ### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
+Column preview card
 ### Screenshot
 ### Links
 
@@ -36,7 +32,7 @@ Users should be able to:
 - Mobile-first workflow
 
 ### Continued development
-- I am confused with how to amke the footer to appear in the page with out affecting the site in mobile-first workflow. I commented out the code inside the html and css.
+- I am confused with how to make the footer to appear in the page with out affecting the site in mobile-first workflow. I commented out the code inside the html and css.
 - developing this site by using grid
 ## Author
 
